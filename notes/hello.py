@@ -1,3 +1,4 @@
+# Print statements in python
 print("Hello World")
 
 # Conditionals in Python
@@ -30,6 +31,7 @@ if(x == 16):
 # division automatically converts to floats
 print("x divided by 5 is " + str(x/5))
 print("x divided by 4 is " + str(x/4))
+print("98.6 casted to an int is", str(int(98.6)))
 
 ### Concatenation and Input ###
 # Here we use input() to get input
