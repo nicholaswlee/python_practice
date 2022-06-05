@@ -1,6 +1,5 @@
 print("Hello World")
 
-
 # Conditionals in Python
 x = 5
 if (x == 5):
@@ -32,3 +31,12 @@ if(x == 16):
 print("x divided by 5 is " + str(x/5))
 print("x divided by 4 is " + str(x/4))
 
+### Concatenation and Input ###
+# Here we use input() to get input
+num_one = input("Give me a number: ")
+num_two = input("Give me another number: ")
+num_three = num_one + num_two
+num_sum = int(num_one) + int(num_two) + int (num_three)
+# When listing things, we can use commas to implicityly
+# add spaces between our variables
+print("Your numbers are ", num_one, num_two, num_three, "\nThe sum is:", str(num_sum))
